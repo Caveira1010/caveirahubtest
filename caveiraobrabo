@@ -639,7 +639,7 @@ _G.SelectWeapon = "Melee"
 mainTab:AddDropdown({
 	Name = "select weapon",
 	Default = WeaponList,
-	Options = {WeaponList},
+	Options = WeaponList,
 	Callback = function(value)
 		_G.SelectWeapon = value
 	end    
