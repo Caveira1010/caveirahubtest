@@ -671,10 +671,9 @@ _G.SelectWeapon = "Melee"
 
 mainTab:AddDropdown({
 	Name = "select weapon",
-	Default = WeaponList,
 	Options = WeaponList,
-	Callback = function(value)
-		_G.SelectWeapon = value
+	Callback = function(Value)
+		_G.SelectWeapon = Value
 	end    
 })
 
