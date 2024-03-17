@@ -32,7 +32,6 @@ local CURRENT_TRIAL = ""
 local statCalc = require(RS.ModuleScripts.StatCalc)
 local numToString = require(RS.ModuleScripts.NumToString)
 local petStats = require(RS.ModuleScripts.PetStats)
-local store = require(RS.ModuleScripts.LocalSulleyStore)
 local enemyStats = require(RS.ModuleScripts.EnemyStats)
 local worldData = require(RS.ModuleScripts.WorldData)
 local configValues = require(RS.ModuleScripts.ConfigValues)
