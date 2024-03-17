@@ -100,23 +100,6 @@ local RAID_RESULT = PlayerGui.RaidGui.RaidResults
 local playerPos = character.HumanoidRootPart.CFrame
 local WORLD = player.World.Value
 
---To reference the countdown in trial
-REMOTE.AttemptTravel:InvokeServer("Tower")
-character.HumanoidRootPart.CFrame = WS.Worlds.Tower.Spawns.SpawnLocation.CFrame
-WS.Worlds.Tower.Water.CanCollide = true
-
-REMOTE.AttemptTravel:InvokeServer(WORLD)
-character.HumanoidRootPart.CFrame = playerPos
-
-local easyTrialTime = WS.Worlds.Tower.Door1.Countdown.SurfaceGui.Background.Time
-local mediumTrialTime = WS.Worlds.Tower.Door2.Countdown.SurfaceGui.Background.Time
-local hardTrialTime = WS.Worlds.Tower.Door3.Countdown.SurfaceGui.Background.Time
-local ultimateTrialTime = WS.Worlds.Tower.Door4.Countdown.SurfaceGui.Background.Time
-
-local towerTime = PlayerGui.MainGui.TowerTimer.Main.Time
-local yesButton = PlayerGui.MainGui.RaidTransport.Main.Yes
-local floorNumberText = PlayerGui.MainGui.TowerTimer.CurrentFloor.Value
-
 
 --functions
 do
