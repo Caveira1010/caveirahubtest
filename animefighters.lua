@@ -39,7 +39,7 @@ local passiveStats = require(RS.ModuleScripts.PassiveStats)
 local eggStats = require(RS.ModuleScripts.EggStats)
 local enemyDamagedEffect = require(staterPlayerScriptsFolder.LocalPetHandler.EnemyDamagedEffect)
 
-local data = store.GetStoreProxy("GameData")
+
 local IGNORED_RARITIES = {"Secret", "Raid", "Divine"}
 local IGNORED_WORLDS = {"Raid", "Tower", "Titan", "Christmas"}
 local IGNORED_METEOR_FARM_WORLDS = {"Tower", "Raid"}
